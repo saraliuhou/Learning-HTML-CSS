@@ -1,0 +1,58 @@
+//less中的单行注释，不会被解析到css中
+/*
+    css中的多行注释，内容会被解析到css中
+*/
+.box1{
+    background-color: seagreen;
+
+    .box2{
+        background-color: slateblue;
+        
+        .box4{
+            color: turquoise;
+        }
+    }
+
+    .box3{
+        background-color: tomato;
+    }
+}
+
+//变量，在变量中，可以存储一个任意的值，可以在需要时任意修改
+// 变量的语法：@变量名
+@a:100px;
+@b:blue;
+@c:box6;
+
+.box5{
+    // 使用变量时，如果是直接使用则以 @变量名 的形式使用
+    width: @a;
+    color: @b;
+}
+
+// 作为类名，或者一部分值使用时必须以 @{变量名} 的形式使用
+.@{c}{
+    width: @a;
+}
+
+@d:200px;
+@e:300px;
+
+div{
+// 变量发生重名时，优先使用比较近的变量
+    @d:115px;
+    width: @d;
+    height: @e;
+}
+
+// 可以在变量声明前就使用变量
+@e:115px;
+
+div{
+    color: violet;
+    background-color: $color;
+
+}
+
+
+

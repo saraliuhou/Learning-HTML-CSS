@@ -1,0 +1,30 @@
+/*
+    css中的多行注释，内容会被解析到css中
+*/
+.box1 {
+  background-color: seagreen;
+}
+.box1 .box2 {
+  background-color: slateblue;
+}
+.box1 .box2 .box4 {
+  color: turquoise;
+}
+.box1 .box3 {
+  background-color: tomato;
+}
+.box5 {
+  width: 100px;
+  color: blue;
+}
+.box6 {
+  width: 100px;
+}
+div {
+  width: 115px;
+  height: 115px;
+}
+div {
+  color: violet;
+  background-color: violet;
+}

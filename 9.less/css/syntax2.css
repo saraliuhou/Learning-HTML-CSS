@@ -1,0 +1,45 @@
+.box1 .box2 {
+  color: yellow;
+}
+.box1 > .box3 {
+  color: yellowgreen;
+}
+.box1 > .box3:hover {
+  color: springgreen;
+}
+.box1:hover {
+  color: slateblue;
+}
+.p1,
+.p2 {
+  width: 100px;
+  height: 200px;
+}
+.p2 {
+  color: tomato;
+}
+.p3 {
+  width: 100px;
+  height: 200px;
+}
+.p5 {
+  width: 100px;
+  height: 100px;
+  background-color: turquoise;
+}
+div {
+  width: 100px;
+  height: 200px;
+  border: blue 1px solid;
+}
+span {
+  color: #ff8000;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+}
+body:hover {
+  background-color: #004c32;
+}
